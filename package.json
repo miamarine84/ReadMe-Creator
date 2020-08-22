@@ -1,0 +1,24 @@
+{
+  "name": "readme-creator",
+  "version": "1.0.0",
+  "description": "ReadMe creator homework with node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miamarine84/ReadMe-Creator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miamarine84/ReadMe-Creator/issues"
+  },
+  "homepage": "https://github.com/miamarine84/ReadMe-Creator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {}
+}
