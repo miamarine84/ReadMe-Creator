@@ -3,20 +3,6 @@ const fs = require('fs')
 const inquirer = require('inquirer');
 const { parse } = require('path');
 
-// prompt.start();
-let finalOutput = []
-// 'Table of Contents', 'Installation', 'Usage', 'License', 'Contributing', 'Test', 'Questions'
-const promptChoices = [
-  'Title',
-  'Please give a description of your project?',
-  'Installation instructions',
-  'Usage Information',
-  'License',
-  'Contributing Guidelines',
-  'Test Instructions',
-  'Questions']
-
-
 console.log('This is the README.md creator please take your time and fill this out.');
 
 var questions = [
